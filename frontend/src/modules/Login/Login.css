@@ -1,0 +1,20 @@
+.login-container {
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(13,123,186,1) 0%, rgba(231,172,255,1) 100%);
+    align-self: center;
+    display: flex;
+}
+
+.login-row{
+    flex: 1;
+}
+
+.login-form-button{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.card-image{
+    height: 200px;   
+}

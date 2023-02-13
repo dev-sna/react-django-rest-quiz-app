@@ -1,0 +1,21 @@
+.quizzes-layout{
+    background: transparent;
+    padding: 40px 100px 40px 100px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(13,123,186,1) 0%, rgba(231,172,255,1) 100%);
+    
+}
+
+@media screen and (max-width: 480px) {
+    .quizzes-layout{
+        padding: 20px 10px 40px 10px;
+    }
+}
+
+.quiz-list{
+    flex: 1;
+}
+
+.ant-list-item-meta .ant-list-item-meta-content{
+    width: auto;
+}
