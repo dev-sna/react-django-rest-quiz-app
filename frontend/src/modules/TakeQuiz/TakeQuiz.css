@@ -1,0 +1,32 @@
+.take-quiz-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(13,123,186,1) 0%, rgba(231,172,255,1) 100%);   
+    padding-top: 100px;
+
+}
+@media screen and (max-width: 480px) {
+    .take-quiz-container{
+        padding: 40px 10px 0px 10px;
+    }
+}
+.answers-container{
+    margin-top: 20px;
+    flex-direction: column;
+    flex-flow: column wrap !important;
+    width: 100%;
+}
+.answer-button{
+    margin-top: 20px;
+}
+.ant-btn.answer-button{
+    height: auto !important;
+    white-space: wrap !important;
+}
+@media screen and (max-width: 480px) {
+    .answer-button{
+        width: 300px;
+    }
+}
+.steps-action{
+    margin-top: 20px;
+}
